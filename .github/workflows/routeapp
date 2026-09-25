@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite Live Preview</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        background: #0f172a;
+        color: #f8fafc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+      .card {
+        background: #1e293b;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        text-align: center;
+      }
+      button {
+        background: #6366f1;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      button:hover {
+        background: #4f46e5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>⚡ Vite Live Preview</h1>
+      <p>Edit <code>src/main.js</code> or <code>index.html</code> to see instant updates!</p>
+      <button id="counter">Clicks: 0</button>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>https://drive.google.com/file/d/1Uj4bDgOYmlXVvf_dG4196TXdZUt85Xjl/view
